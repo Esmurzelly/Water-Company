@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+option {
+  color: red;
+  font-weight: 600;
+}
+
+.info_about {
+  background-image: url(https://ovkwaters.ru/upload/iblock/62b/62b76c3b47110de34a9759c17eeeadaf.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 300px 0;
+  position: relative;
+}
+.info_about .info_about_back {
+  background-color: blue;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+.info_about .info_about_text {
+  position: absolute;
+  text-align: left;
+  top: 30%;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.info_about .info_about_text h1 {
+  font-size: 2rem;
+}
+.info_about .info_about_text p {
+  margin-top: 30px;
+}
+
+.disc .back {
+  background-image: url(https://eskipaper.com/images/water-splash-1.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  padding: 200px;
+}
+.disc .back .back_text {
+  color: #000;
+  font-weight: 800;
+  font-size: 20px;
+}
+.disc .disc_list {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #4c46b6;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.disc .disc_list ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.disc .disc_list ul li {
+  list-style-type: none;
+  color: #fff;
+}
+.disc .disc_list ul li i {
+  margin-right: 5px;
+  color: #fff;
+}
+.disc .disc_list p {
+  margin-top: 10px;
+  color: #fff;
+}
+.disc .disc_list p:first-child {
+  font-weight: 600;
+}
+
+.footer_cont {
+  padding: 10px 10px;
+  background-color: #000;
+  color: #fff;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+@media screen and (max-width: 827px) {
+  .back .back_text {
+    font-weight: 800;
+    width: 100%;
+  }
+  .back .back_text > * {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,118 @@
+@-webkit-keyframes show_header {
+  0% {
+    opacity: 0;
+    top: -70px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+@keyframes show_header {
+  0% {
+    opacity: 0;
+    top: -70px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.m-menu {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  font-size: 4rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#554DD8), to(#2219B2));
+  background: linear-gradient(180deg, #554DD8, #2219B2);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.m-menu__active {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.m-menu-link {
+  display: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.close-menu {
+  position: fixed;
+  right: 2.5rem;
+  top: 0;
+  font-size: 5rem;
+  color: #fff;
+}
+.close-menu:hover {
+  cursor: pointer;
+}
+
+.menu-link {
+  color: wheat;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#scrollTop {
+  position: fixed;
+  bottom: 60px;
+  right: 70px;
+  font-size: 50px;
+  z-index: 9999;
+  display: block;
+  color: #4B5BD8;
+  cursor: pointer;
+}
+
+.isShowBtn {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.isHideBtn {
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header_fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-animation-name: show_header;
+          animation-name: show_header;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}

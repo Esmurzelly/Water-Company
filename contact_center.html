@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Center</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- подключение fontawesome для иконок-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- подключение fontawesome для шрифтов-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/water.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/other_sections/contact_center.css">
+</head>
+<body>
+
+    <!-- Стрелка вверх -->
+    <div id="scrollTop" class="isShowBtn isHideBtn">
+        <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+    </div>
+
+    <header>
+        <div class="header-menu">
+            <div class="header_select">
+                <li class="header-item-lang-en"><button id="en" class="translate"><img src="https://xn--80aa0ae5alh0a.xn--p1ai/wp-content/uploads/2020/07/juk-2048x1365.jpg" alt="enflag"></button></li>
+                <li class="header-item-lang-en"><button id="ru" class="translate"><img src="https://im0-tub-ru.yandex.net/i?id=03ed40d21adcb1cfc0c5481d3d70f993&n=13&exp=1" alt="ruflag"></button></li>
+            </div>
+            
+            <div class="contact_center">
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                    <a href="contact_center.html"><p class="lang" key="contact_center">Contact Center</p></a>
+
+                    <select name="languge" id="header_select">
+                    <option value="none" hidden=""> <p class="lang" key="country_profile">Country Profile</p> </option>
+                    <option value="Russia">Russia</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                </select>   
+            </div>
+        </div>
+
+        <!-- Меню -->
+        <div class="header_main_menu">
+            <div class="header_menu">
+                <div class="logo">
+                    <a href="index.html"><img src="https://icons.iconarchive.com/icons/lunartemplates/modern-social-media-circles/48/Picasa-icon.png" alt="logo"></a>
+                </div>
+                
+                <!-- Поиск -->
+                <div class="search">
+                    <img src="img/search_icon.png" alt="">
+                </div>
+
+                <!-- Открыть адаптивное меню -->
+                <a href="#" class="m-menu-link">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="map_contact">
+        <div id="map" class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.659429970669!2d42.98007831502104!3d44.0697407334141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40579c596cc133ad%3A0xda4dc0215121bb4a!2z0J7QsdGK0LXQtNC40L3QtdC90L3QsNGPINCS0L7QtNC90LDRjyDQmtC-0LzQv9Cw0L3QuNGP!5e0!3m2!1sru!2sru!4v1624108471729!5m2!1sru!2sru" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="cont_info">
+            <div class="cont_info_text">
+                <span class="lang" key="map_we are">We are on the map</span>
+                <div class="pordob_info">
+                    <p class="lang" key="map_address"><i class="fa fa-map-marker" aria-hidden="true"></i>357361, Russia, Stavropol Territory, Foothill District,
+                        from. Vinsady, Circassian highway, 2nd km.
+                        (at a fork in the highway between the cities of Essentuki, Pyatigorsk and Lermontov)
+                    </p>
+                    <p class="lang" key="map_head"><i class="fa fa-building" aria-hidden="true"></i>Head office: tel./fax: +7 (8793) 39-96-42, 97-62-81</p>
+                    <p class="lang" key="map_sales"><i class="fa fa-coffee" aria-hidden="true"></i>Sales department: +7 938 300-26-26</p>
+                    <p class="lang" key="map_export"><i class="fa fa-globe" aria-hidden="true"></i>Export department: +7 928 008-30-00</p>
+                    <p class="lang" key="map_depart"><i class="fa fa-calculator" aria-hidden="true"></i>Accounting department: +7 (8793) 39-96-41</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer_cont">
+        <p>Site was developed by second year student &#169; Adam Esmurziev from group 2P9 ☭</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="target.js"></script> 
+    <script src="translate.js"></script> 
+</body>
+</html>

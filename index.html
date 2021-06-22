@@ -1,0 +1,289 @@
+<!DOCTYPE html> <!-- предназначен для указания типа текущего документа — DTD-->
+<html lang="en"> <!-- основной тег в структуре -->
+<head> <!-- тег head (нужен для подключения css файлов и метатегов) -->
+    <meta charset="UTF-8"> <!-- Кодировка -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- запускает браузер chrome внутри IE.-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- подключение fontawesome для иконок-->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- подключение fontawesome для шрифтов-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/style.css"> <!-- подключение css файла для стилизации -->
+    <link rel="stylesheet" href="css/adaptive.css"> <!-- подключение css файла для адаптивности-->
+    <link rel="shortcut icon" href="img/water.png" type="image/x-icon"> <!-- фавикон-->
+    <title>Water Company</title> <!-- Название сайта-->
+</head>
+<body>
+
+    <!-- Стрелка вверх -->
+    <div id="scrollTop" class="isShowBtn isHideBtn">
+        <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+    </div>
+
+    <!-- Адаптивное меню -->
+    <ul class="m-menu">
+        <li class="close-menu">&times;</li>
+        <li><a href="#service" class="menu-link adaptive_menu lang" key="express">express</a></li>
+        <li><a href="#about" class="menu-link adaptive_menu lang" key="parce">parce & ecommerce</a></li>
+        <li><a href="#express_logistic" class="menu-link adaptive_menu lang" key="logistics">logistics</a></li>
+        <li><a href="#features" class="menu-link adaptive_menu lang" key="mail">mail</a></li>
+        <li><a href="#client" class="menu-link adaptive_menu lang" key="press">press</a></li>
+        <li><a href="#footer" class="get-started-btn menu-link adaptive_menu lang" key="about">about</a></li>
+    </ul>
+
+    <!-- Шапка -->
+    <header>
+        <div class="header-menu">
+            <div class="header_select">
+                <li class="header-item-lang-en"><button id="en" class="translate"><img src="https://xn--80aa0ae5alh0a.xn--p1ai/wp-content/uploads/2020/07/juk-2048x1365.jpg" alt="enflag"></button></li>
+                <li class="header-item-lang-en"><button id="ru" class="translate"><img src="https://im0-tub-ru.yandex.net/i?id=03ed40d21adcb1cfc0c5481d3d70f993&n=13&exp=1" alt="ruflag"></button></li>
+            </div>
+            
+            <div class="contact_center">
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                    <a href="contact_center.html"><p class="lang" key="contact_center">Contact Center</p></a>
+
+                    <select name="languge" id="header_select">
+                    <option value="none" hidden=""> <p class="lang" key="country_profile">Country Profile</p> </option>
+                    <option value="Russia">Russia</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                </select>   
+            </div>
+        </div>
+
+        <!-- Меню -->
+        <div class="header_main_menu">
+            <div class="header_menu">
+                <div class="logo">
+                    <a href="#slider"><img src="https://icons.iconarchive.com/icons/lunartemplates/modern-social-media-circles/48/Picasa-icon.png" alt="logo"></a>
+                    
+                </div>
+                <nav class="menu visible-lg">
+                    <a href="#service" class="menu-link lang" key="express">express</a>
+                    <a href="#about" class="menu-link lang" key="parce">parce & ecommerce</a>
+                    <a href="#express_logistic" class="menu-link lang" key="logistics">logistics</a>
+                    <a href="#features" class="menu-link lang" key="mail">mail</a>
+                    <a href="#client" class="menu-link lang" key="press">press</a>
+                    <a href="#footer" class="menu-link lang" key="about">about</a>
+                </nav>
+                
+                <!-- Поиск -->
+                <div class="search">
+                    <img src="img/search_icon.png" alt="">
+                </div>
+
+                <!-- Открыть адаптивное меню -->
+                <a href="#" class="m-menu-link">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Первая секция -->
+        <div id="slider" class="slider">
+            <div class="header_gradient"></div>
+            <img src="https://ovkwaters.ru/upload/iblock/911/91136e403d7e134fddbc76f85a39164d.jpg" alt="img_background">
+
+            <div class="header_text">
+                <h1 class="lang" key="we_dev_sp">We Deliver With Speed</h1>
+                <hr>
+                <p class="when_text lang" key="desc_slider">United Water Company LLC is the largest producer of drinking and 
+                    mineral water, as well as non-alcoholic and soft drinks. The company is located in the 
+                    specially protected ecological resort region of the Caucasian Mineral Waters. Well No. 
+                    79 at the Beshtaugorskoye field is owned by the United Water Company.
+                </p>
+                <div class="aqs">
+                    <p class="lang" key="amazing">amazing</p>
+                    <p class="lang" key="quick">quick</p>
+                    <p class="lang" key="sup">24/7 supports</p>
+                </div>
+                <div class="buttons">
+                    <a href="info.html" class="lang" key="learn">learn more</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Сервис -->
+    <div class="service" id="service" >
+        <div class="service_text">
+            <h1>SERVICES</h1>
+            <p>Awesome Services</p>
+        </div>
+
+        <!-- Формы -->
+        <div class="services_form">
+            <div class="express kuku">
+                <img src="https://cdn.ready-market.com/101/b7ae30a3//Templates/pic/Green-Tak-Drinking-Water-Purifier-Expert.jpg?v=50ea8aec" alt="">
+                <h3 class="lang" key="express">Express services</h3>
+                <p class="lang" key="to_learn">To learn more about this component, click on "Read more".</p>
+                <a href="more.html"><span class="lang" key="read_more_service">Read More<i class="fa fa-caret-right" aria-hidden="true"></i></span></a>
+            </div>
+            <div class="parcel kuku">
+                <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://www.watergovernance.org/wp-content/uploads/2015/11/Cover-1-270x180-c-default.png" alt="">
+                <h3 class="lang" key="parce">parcel & ecommerce</h3>
+                <p class="lang" key="to_learn">To learn more about this component, click on "Read more".</p>
+                <a href="more.html"><span class="lang" key="read_more_service">Read More<i class="fa fa-caret-right" aria-hidden="true"></i></span></a>
+            </div>
+            <div class="transport kuku">
+                <img src="https://www.unitywater.com/-/media/unitywater/campaigns/local-water-legends/local-water-legends-dam-icon.jpg?h=180&la=en&mw=600&w=270&hash=C18F15DD9BFFB0D7B64868605ECFF26F" alt="">
+                <h3 class="lang" key="frieght">frieght transport</h3>
+                <p class="lang" key="to_learn">To learn more about this component, click on "Read more".</p>
+                <a href="more.html"><span class="lang" key="read_more_service">Read More<i class="fa fa-caret-right" aria-hidden="true"></i></span></a>
+            </div>
+            <div class="dhi">
+                <h3 class="lang" key="locat">Select location</h3>
+                <hr>
+                <p class="lang" key="reg">Choose your region</p>
+                <select name="location" id="location">
+                    <option value="none" hidden="">Значение по умолчанию</option>
+                    <option value="English">Moscow</option>
+                    <option value="English">St. Petesburg</option>
+                    <option value="English">Kazan</option>
+                    <option value="English">Sochi</option>
+                    <option value="English">Tumen</option>
+                    <option value="English">Pyatigorsk</option>
+                    <option value="English">Minsk</option>
+                    <option value="English">Grodno</option>
+                    <option value="English">Kiev</option>
+                    <option value="English">Lvov</option>
+                    <option value="English">Nur-Sultan</option>
+                    <option value="English">Almaty</option>
+                </select>
+                <span class="lang" key="explore">Explore</span>
+            </div>
+        </div>
+    </div>
+
+        <!-- О нас -->
+    <div class="about" id="about">
+        <div class="about_us">
+            <div class="trans">
+                <img src="https://ovkwaters.ru/upload/iblock/50d/50dd3550a0135bb0d97558fa2c45a155.jpg" alt="transport">
+                <div class="about_bg_cover"></div>
+            </div>
+            <div class="about_us_text">
+                <p class="lang" key="best">One of the best international service provider</p>
+            </div>
+
+            <!-- Карточки -->
+            <div class="about_images">
+                <div class="layer">
+                    <img src="https://www.capula.co.uk/wp-content/uploads/2017/05/water-scada-370x200.jpg" alt="Layer7">
+                    <div class="layer_text">
+                        <span class="lang" key="qual">Quality</span>
+                        <p class="lang" key="qual1"><i class="fa fa-caret-right" aria-hidden="true"></i>Five years on the market.</p>
+                        <p class="lang" key="qual2"><i class="fa fa-caret-right" aria-hidden="true"></i>9/10 reviews.</p>
+                    </div>
+                </div>
+                <div class="layer">
+                    <img src="https://www.reliabilityconnect.com/wp-content/uploads/CMMS-Software-Paves_-370x200.png" alt="Layer8">
+                    <div class="layer_text">
+                        <span class="lang" key="speed">Speed</span>
+                        <p class="lang" key="speed1"><i class="fa fa-caret-right" aria-hidden="true"></i>Maximum production last 10 years.</p>
+                        <p class="lang" key="speed2"><i class="fa fa-caret-right" aria-hidden="true"></i>Four types of drinks produced.</p>
+                    </div>
+                </div>
+                <div class="layer">
+                    <img src="https://www.agemechanical.ca/wp-content/uploads/2019/02/Backflow-connection-370x200.jpg" alt="Layer9">
+                    <div class="layer_text">
+                        <span class="lang" key="delivery">Delivery</span>
+                        <p class="lang" key="delivery1"><i class="fa fa-caret-right" aria-hidden="true"></i>Delivery to CIS.</p>
+                        <p class="lang" key="delivery2"><i class="fa fa-caret-right" aria-hidden="true"></i>Our branches in all CIS cities.</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+        <!-- Логистика -->
+    <div class="express_logistic" id="express_logistic">
+        <div class="form">
+            <div class="viborka">
+                <span class="lang" key="express">express</span>
+                <span class="lang" key="logistics">logistic</span>
+            </div>
+            
+            <div class="select_form">
+                <p data-tooltip="For questions, please contact support / по вопросам обращайтесь в службу поддержки" class="lang" key="track">TRACK YOUR SHIPMENT<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                <p data-tooltip="For questions, please contact support / по вопросам обращайтесь в службу поддержки" class="lang" key="log">NEW LOGIN<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                <p data-tooltip="For questions, please contact support / по вопросам обращайтесь в службу поддержки" class="lang" key="find_point">FIND DHL POINT<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+                <p data-tooltip="For questions, please contact support / по вопросам обращайтесь в службу поддержки" class="lang" key="find_service">FIND A SERVICE<i class="fa fa-caret-down" aria-hidden="true"></i></p>
+            </div>
+        </div>
+        <div class="logo_express_vidal">
+            <img src="https://ovkwaters.ru/upload/iblock/439/43956b3e773a0cb2c896abf638227c15.jpg" alt="">
+            <div class="frame_vidal"></div>
+        </div>
+    </div>
+
+    <!-- Описание -->
+    <div class="features" id="features">
+        <div class="features_add">
+            <div class="fearures_text">
+                <h2 class="lang" key="excelelence">Excelelence. simply Delivered.</h2>
+                <p class="lang" key="international">The company is constantly evolving, the assortment is 
+                    replenished with new brands and tastes in accordance with market trends. All products 
+                    manufactured by our company undergo constant laboratory quality and safety control.</p>
+            </div>
+            <div class="button_features">
+                <a href="plus.html"><span class="lang" key="learn">Learn more</span></a>
+                
+            </div>
+        </div>
+    </div>
+
+        <!-- Компании -->
+    <div class="client" id="client">
+        <div class="client_images">
+            <img src="img/client/1.png" alt="1">
+            <img src="img/client/2.png" alt="2">
+            <img src="img/client/3.png" alt="3">
+            <img src="img/client/4.png" alt="4">
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="end">
+            <div class="left-side-image">
+                <img src="img/footer/left_image.png" alt="">
+            </div>
+            <div class="contact_center_footer">
+                <h2 class="lang" key="contact_center">Contact center</h2>
+                <p class="lang" key="express"><i class="fa fa-caret-right" aria-hidden="true"></i>express</p>
+                <p class="lang" key="parce"><i class="fa fa-caret-right" aria-hidden="true"></i>parcel & eccomerce</p>
+                <p class="lang" key="forward"><i class="fa fa-caret-right" aria-hidden="true"></i>global forwarding</p>
+                <p class="lang" key="glob_freight"><i class="fa fa-caret-right" aria-hidden="true"></i>freight</p>
+            </div>
+            <div class="about_us_footer">
+                <h2 class="lang" key="contact_center">Contact center</h2>
+                <p class="lang" key="partnerships"><i class="fa fa-caret-right" aria-hidden="true"></i>Partnerships</p>
+                <p class="lang" key="portrait"><i class="fa fa-caret-right" aria-hidden="true"></i>Company Portrait</p>
+                <p class="lang" key="forward"><i class="fa fa-caret-right" aria-hidden="true"></i>DHL Global Forwarding</p>
+                <p class="lang" key="green"><i class="fa fa-caret-right" aria-hidden="true"></i>Green Solutions</p>
+            </div>
+            <div class="social_media_footer">
+                <h2 class="lang" key="contact_center">Contact center</h2>
+                <p class="lang" key="facebook"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="https://www.facebook.com/talaya.voda.official/">Facebook</a> </p>
+                <p class="lang" key="dribbble"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="https://vk.com/talaya.voda">Vkontacte</a> </p>
+                <p class="lang" key="behance"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="https://www.instagram.com/ovkwaters/?utm_source=ig_profile_share&igshid=e2dya2jdub04">Instagram</a> </p>
+                <p class="lang" key="twitter"><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="https://ok.ru/group/54582091186283">Odnoklassniki</a> </p>
+            </div>
+            <div class="right-side-image">
+                <img src="img/footer/right_image.png" alt="footer_right_img">
+            </div>
+        </div>
+        <div class="footer_cont">
+            <p>Site was developed by second year student &#169; Adam Esmurziev from group 2P9 ☭</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="target.js"></script> 
+    <script src="translate.js"></script> 
+</body>
+
+
+</html>

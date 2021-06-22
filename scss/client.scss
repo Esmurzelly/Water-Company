@@ -1,0 +1,23 @@
+.client {
+	margin-top: 50px;
+	width: 100%;
+}
+.client_images {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 10px;
+	img {
+		cursor: pointer;
+		background-size: cover;
+		border: 2px solid #eedbdb;
+		background-color: #f9f9f9;
+		padding: 30px 10px;
+		margin: 20px;
+		&:hover {
+			border: 2px solid #f9f9f9;
+			background-color: #eedbdb;
+		}
+	}
+}

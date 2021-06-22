@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+option {
+    color: red;    
+    font-weight: 600;
+}
+
+.employment {
+    background-image: url(https://ovkwaters.ru/upload/iblock/117/11717e81dbb2391b374c2dbf239b1ca7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 300px 0;
+    position: relative;
+    
+    .employment_back {
+        background-color: blue;
+        filter: alpha(opacity=40);
+        opacity: 0.4;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+    }
+    .employment_text {
+        position: absolute;
+        text-align: left;
+        top: 30%;
+        left: 0;
+        padding: 20px;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            margin-top: 30px;
+        }
+    }
+}
+
+.pluses {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    .img {
+        margin-right: 40px;
+        img {
+            width: 550px;
+        }
+    }
+    .preim {
+        display: flex;
+        flex-direction: column;
+
+        .preim_info {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: flex-start;
+            
+            font-size: 12px;
+            div {
+                margin-top: 20px;
+                img {
+                    width: 80px;
+                    height: 120px;
+                }
+                width: 33%;
+                p {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+.more_info {
+    padding: 20px;
+    .pictures {
+        p {
+            font-size: 20px;
+        }
+        .image-slider {
+            padding: 30px 0 70px 0;
+            .swiper-pagination-bullet {
+                width: 15px;
+                height: 15px;
+            }
+        }
+        .image-slider__image {
+            text-align: center;
+            img  {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.footer_cont {
+	padding: 10px 10px;
+	background-color: #000;
+	color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+    .pluses {
+        margin-top: 50px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        .img {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            img {
+                width: 550px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .preim_info p {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+@import "header.scss"; // директива для импорта других файлов
+@import "slider.scss";
+@import "service.scss";
+@import "about.scss";
+@import "express.scss";
+@import "features.scss";
+@import "client.scss";
+@import "footer";
+@import "animation.scss";
+
+// обращение ко всем элементам - отсутствие лишних отступов
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+// задание шрифта Poppins
+body {
+	font-family: 'Poppins', sans-serif;
+	a {
+		text-decoration: none;
+	}
+}

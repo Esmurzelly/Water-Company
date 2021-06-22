@@ -1,0 +1,118 @@
+.slider {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.slider img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.header_text {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+  height: 400px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 15%;
+  top: 10%;
+}
+.header_text h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  width: 250px;
+  color: #2E3884;
+}
+.header_text p {
+  color: #4c46b6;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+hr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  height: 4px;
+  border: none;
+  background-color: #342F85;
+}
+
+.when_text {
+  max-width: 520px;
+}
+
+.aqs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 370px;
+}
+.aqs p {
+  color: #2E3884;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+}
+.buttons a {
+  color: #2E3884;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  list-style: none;
+  text-decoration: none;
+  padding: 12px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.buttons a:hover {
+  background-color: #8742D6;
+  color: #fff;
+  border: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header_gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: 0;
+  background: linear-gradient(-45deg, #91b7e2 10%, #d8d3a8 90%);
+}

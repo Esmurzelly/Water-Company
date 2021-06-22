@@ -1,0 +1,155 @@
+.express_logistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.express_logistic .logo_express_vidal:hover div {
+  outline: 15px solid #440753;
+}
+.express_logistic .logo_express_vidal img {
+  max-width: 250px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+.frame_vidal {
+  outline: 10px solid #707DD8;
+  position: relative;
+  width: 240px;
+  height: 280px;
+  left: -20px;
+  top: 25px;
+  z-index: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.select_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.select_form p {
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 2px solid wheat;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  padding: 10px;
+}
+.select_form p:hover {
+  color: #ffcc00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.select_form p > i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form {
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #440753;
+}
+
+.viborka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5px 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.viborka span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  outline: 2px solid #707DD8;
+  margin: 0 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.viborka span:hover {
+  color: #ffffff;
+  outline: 2px solid #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.logo_express_vidal {
+  cursor: pointer;
+}
+
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 300px;
+  left: 0;
+  top: 0;
+  background: #3989c9;
+  color: #fff;
+  padding: 0.5em;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 9;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
+  top: 2em;
+}

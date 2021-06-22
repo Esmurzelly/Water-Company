@@ -1,0 +1,371 @@
+@media (max-width:1167px) {
+	html {
+		font-size: 15px;
+	}
+}
+@media (max-width:1110px) {
+	html {
+		font-size: 15px;
+	}
+	.header_text {
+		height: 300px;
+	}
+	.services_form {
+		div {
+			margin-bottom: 20px;
+		}
+	}
+	.about_us_text {
+		height: 250px;
+		p {
+			text-align: center;
+			font-size: 40px;
+		}
+		i {
+			font-size: 70px;
+		}
+	}
+	.about_images {
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.layer {
+		img {
+			width: 340px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 1.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+}
+@media (max-width:1024px) {
+	.layer {
+		img {
+			width: 320px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 1.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+	}
+}
+@media (max-width:960px) {
+	.layer {
+		img {
+			width: 220px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 0.7rem;
+		}
+		p {
+			font-size: 0.5rem;
+		}
+	}
+	#scrollTop {
+		bottom: 10px;
+		right: 40px;
+	}
+}
+@media (max-width:929px) {
+	.end {
+		img {
+			display: none;
+		}
+	}
+	.client_images {
+		img {
+			margin-top: 10px;
+		}
+	}
+}
+@media (max-width:875px) {
+	.features_add {
+		height: 350px;
+	}
+	.end {
+		img {
+			width: 150px;
+			height: 100px;
+		}
+	}
+}
+@media (max-width:809px) {
+	.header_text {
+		p {
+			font-size: 12px;
+		}
+		h1 {
+			font-size: 20px;
+		}
+		left: 8%;
+		top: 3%;
+		height: 250px;
+	}
+	a {
+		font-size: 12px;
+	}
+	.about_images {
+		flex-direction: row;
+	}
+	.layer {
+		img {
+			width: 220px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 0.7rem;
+		}
+		p {
+			font-size: 0.5rem;
+		}
+	}
+}
+@media (max-width:741px) {
+	.about_images {
+		flex-direction: row;
+	}
+	.layer {
+		img {
+			width: 220px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 0.7rem;
+		}
+		p {
+			font-size: 0.5rem;
+		}
+	}
+}
+@media (max-width:663px) {
+	.header_main_menu {
+		>.header_menu {
+			>.visible-lg {
+				display: none;
+			}
+		}
+	}
+	.m-menu-link {
+		display: block;
+	}
+	.header_text {
+		width: 70%;
+		height: 200px;
+	}
+	.express_logistic {
+		.logo_express_vidal {
+			margin-left: 40px;
+			margin-top: 20px;
+		}
+	}
+	.about_images {
+		flex-direction: row;
+	}
+	.layer {
+		img {
+			width: 180px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 0.7rem;
+		}
+		p {
+			font-size: 0.5rem;
+		}
+	}
+	.end {
+		display: flex;
+		flex-direction: column;
+		div {
+			margin-top: 30px;
+		}
+	}
+}
+@media (max-width:544px) {
+	.header_text {
+		width: 70%;
+		height: 170px;
+		h1 {
+			font-size: 13px;
+		}
+		p {
+			font-size: 10px;
+		}
+		a {
+			font-size: 8px;
+			padding: 8px;
+		}
+	}
+	.layer {
+		width: 150px;
+		height: 200px;
+		img {
+			width: 150px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 0.6rem;
+		}
+		p {
+			font-size: 0.4rem;
+		}
+	}
+	.button_features {
+		margin-top: 20px;
+	}
+	.fearures_text {
+		h2 {
+			font-size: 14px;
+		}
+	}
+	p {
+		font-size: 14px;
+	}
+	span {
+		font-size: 14px;
+	}
+}
+@media (max-width:450px) {
+	.header_text {
+		width: 70%;
+		height: 140px;
+	}
+	.layer {
+		width: 130px;
+		height: 170px;
+		img {
+			width: 130px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		padding: 0;
+		span {
+			font-size: 0.6rem;
+		}
+		p {
+			font-size: 0.4rem;
+		}
+	}
+}
+@media (max-width:397px) {
+	.service {
+		.service_text {
+			h1 {
+				font-size: 3rem;
+			}
+			p {
+				font-size: 1rem;
+			}
+		}
+	}
+	.header_text {
+		width: 70%;
+		height: 120px;
+		.aqs {
+			width: 150px;
+		}
+		p {
+			font-size: 7px;
+		}
+	}
+	.buttons {
+		width: 200px;
+		a {
+			padding: 5px;
+			font-size: 0.4rem;
+		}
+	}
+	.layer {
+		width: 100px;
+		height: 140px;
+		img {
+			width: 100px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 0.4rem;
+		}
+		p {
+			font-size: 0.3rem;
+		}
+	}
+	.fearures_text {
+		h2 {
+			font-size: 11px;
+		}
+	}
+	p {
+		font-size: 11px;
+	}
+	span {
+		font-size: 11px;
+	}
+}
+@media (max-width:330px) {
+	.form {
+		width: 320px;
+	}
+	.contact_center {
+		p {
+			font-size: 10px;
+		}
+		i {
+			margin-left: 1rem;
+			align-self: flex-start;
+		}
+	}
+}
+@media (max-width:300px) {
+	.layer {
+		width: 90px;
+		height: 130px;
+		img {
+			width: 90px;
+			height: auto;
+		}
+	}
+	.layer_text {
+		span {
+			font-size: 0.4rem;
+		}
+		p {
+			font-size: 0.3rem;
+		}
+	}
+	.fearures_text {
+		h2 {
+			font-size: 10px;
+		}
+	}
+	p {
+		font-size: 10px;
+	}
+	span {
+		font-size: 10px;
+	}
+}

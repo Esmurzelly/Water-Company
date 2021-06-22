@@ -1,0 +1,50 @@
+.features {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #440753;
+}
+
+.features_add {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.fearures_text {
+  max-width: 650px;
+}
+.fearures_text h2 {
+  color: #f4e9e9;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #f4e9e9;
+}
+
+span {
+  color: #f4e9e9;
+}
+
+.button_features span {
+  cursor: pointer;
+  background-color: #1729B0;
+  border-radius: 100px;
+  padding: 20px;
+}
