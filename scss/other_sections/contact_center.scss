@@ -31,6 +31,8 @@ option {
     flex-direction: row;
     justify-content: space-around;
 
+    
+
     .cont_info {
         display: flex;
         flex-direction: column;
@@ -66,7 +68,9 @@ option {
 @media screen and (max-width: 1133px) {
     .map_contact {
         flex-direction: column-reverse;
-    
+        .map iframe {
+            width: 100%;
+        }
         .cont_info {
             display: flex;
             flex-direction: column;

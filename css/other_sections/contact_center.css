@@ -98,6 +98,9 @@ option {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+  .map_contact .map iframe {
+    width: 100%;
+  }
   .map_contact .cont_info {
     display: -webkit-box;
     display: -ms-flexbox;

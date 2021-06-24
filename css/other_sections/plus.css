@@ -157,7 +157,7 @@ option {
             justify-content: center;
   }
   .pluses .img img {
-    width: 550px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 610px) {
