@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -54,16 +55,41 @@ option {
   margin-top: 30px;
 }
 
-.disc .back {
-  background-image: url(https://eskipaper.com/images/water-splash-1.jpg);
-  background-size: cover;
-  opacity: 0.8;
-  padding: 200px;
+.disc {
+  /*.back {
+      background-image: url(https://eskipaper.com/images/water-splash-1.jpg);
+      background-size: cover;
+      opacity: 0.8;
+      padding: 200px;
+      .back_text {
+          color: #000;
+          font-weight: 800;
+          font-size: 20px;
+      }
+  }*/
 }
-.disc .back .back_text {
-  color: #000;
+.disc .back {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.disc .back img {
+  width: 100%;
+}
+.disc .back h2 {
+  position: absolute;
+  top: 30%;
+  left: 200px;
+  font-size: 50px;
+}
+.disc .back p {
+  position: absolute;
+  top: 40%;
+  left: 200px;
+  max-width: 1000px;
+  text-align: left;
+  font-size: 35px;
   font-weight: 800;
-  font-size: 20px;
 }
 .disc .disc_list {
   padding: 50px;
@@ -105,12 +131,59 @@ option {
           flex: 0 0 auto;
 }
 
-@media screen and (max-width: 827px) {
-  .back .back_text {
-    font-weight: 800;
-    width: 100%;
+@media screen and (max-width: 1260px) {
+  .disc .back h2 {
+    position: absolute;
+    top: 30%;
+    left: 200px;
+    font-size: 30px;
   }
-  .back .back_text > * {
+  .disc .back p {
+    position: absolute;
+    top: 40%;
+    left: 200px;
+    max-width: 1000px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 1022px) {
+  .disc .back h2 {
+    left: 100px;
+  }
+  .disc .back p {
+    left: 100px;
+  }
+}
+@media screen and (max-width: 702px) {
+  .disc .back h2 {
+    left: 80px;
+  }
+  .disc .back p {
+    left: 80px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 523px) {
+  .disc .back h2 {
+    top: 10%;
+  }
+  .disc .back p {
+    top: 30%;
+  }
+}
+@media screen and (max-width: 353px) {
+  .disc .back h2 {
+    font-size: 20px;
+    top: 10%;
+    left: 30px;
+  }
+  .disc .back p {
+    top: 30%;
+    left: 30px;
     font-size: 10px;
+    font-size: 500;
   }
 }

@@ -1020,6 +1020,7 @@ footer {
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 body a {
   text-decoration: none;
